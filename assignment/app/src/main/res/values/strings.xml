@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ServiceWorkerExample</string>
+    <string name="get_image_text">Get Image</string>
 </resources>
