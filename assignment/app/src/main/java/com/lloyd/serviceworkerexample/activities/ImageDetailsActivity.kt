@@ -15,7 +15,6 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
 
-
 class ImageDetailsActivity : AppCompatActivity(), View.OnClickListener {
 
     private val firstServiceWorker: ServiceWorker = ServiceWorker()
@@ -58,8 +57,6 @@ class ImageDetailsActivity : AppCompatActivity(), View.OnClickListener {
                     }
                 })
             }
-
-
         }
     }
 }
