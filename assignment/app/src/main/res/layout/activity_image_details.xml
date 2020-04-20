@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="2"
-    tools:context=".MainActivity">
+    tools:context=".activities.ImageDetailsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,14 +16,22 @@
         <ImageView
             android:id="@+id/iv_first_image"
             android:layout_width="wrap_content"
-            android:layout_height="250dp" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp" />
 
         <Button
             android:id="@+id/btn_get_first_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/get_image_text" />
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="@string/get_first_image"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,14 +43,21 @@
         <ImageView
             android:id="@+id/iv_second_image"
             android:layout_width="wrap_content"
-            android:layout_height="250dp" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
 
         <Button
             android:id="@+id/btn_get_second_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Get Image" />
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="@string/get_second_image"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>
